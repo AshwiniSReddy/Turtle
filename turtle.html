@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+   <head>
+      <title>JavaScript Turtle Graphics</title>
+      <link rel="stylesheet" href="index2.css">
+     
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="wrap">
+         <div class="turtle">
+            <div class="card1">
+                <div class="video-container">
+                    <video src="3152740434.mp4" autoplay loop muted></video>
+                    <div class="box">
+                      <div id="details">Enter the details</div>
+                      <div class="patternsize">
+                        <div>
+                            <label for="pattern size">pattern size</label>
+                        </div>
+                        <div><input type="text"  id="patternsize" placeholder="Ex 5,6,7,82"></div>
+                      </div>
+                      <div class="patternsize">
+                        <div>
+                            <label for="angle">Rotate Angle</label>
+                        </div>
+                        <div><input type="text" id="angle" placeholder="Ex 30,180,45"></div>
+                      </div>
+                      <div class="patternsize">
+                        <div onClick="generate()">Submit</div>
+                        <div id="back">Back</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+         <div class="card1" id="cards">
+            <span id="coords"></span>
+            <canvas id="turtlecanvas" width="700" height="700"></canvas>
+            <canvas id="imagecanvas" width="700" height="700" style="display:none"></canvas>
+
+         </div> 
+         
+      </div> 
+      <script type="text/javascript" src="lib/library.js"></script>
+      <script type="text/javascript" src="functions.js"></script>
+      <script type="text/javascript" src="turtle.js"></script>
+   </body>
+</html>

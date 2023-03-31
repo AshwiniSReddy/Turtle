@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #167F94;
+    box-sizing: border-box;
+}
+
+
+.instruction_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* width: 1516px;
+    height: 198px; */
+    /* UI Properties */
+    text-align: left;
+    /* font: normal normal normal 25px/33px Segoe UI; */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+
+.vedios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+}
